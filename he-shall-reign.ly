@@ -5,6 +5,9 @@
 
 \score {
   \relative c {
+    \tempo "With awe" 4= 120
+    
+    \key g \major
     \clef bass
     e4.
   }
