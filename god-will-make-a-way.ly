@@ -5,7 +5,8 @@
 
 \score{
   \relative {
-	\tempo "With assurance" 4= 92
+	  \tempo "With assurance" 4= 92
+    
     \key g \major
     \clef bass
     b4. d,8 g4 b8 a~ a2. 
