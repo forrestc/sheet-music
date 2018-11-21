@@ -3,7 +3,7 @@
   composer = "Tom Fetteke"
 }
 
-  musicOne = \relative c {
+musicOne = \relative c {
     \tempo "With awe" 4= 120
     
     \key g \major
@@ -21,15 +21,29 @@
     b4 b b a8 a~a4 g g r8
     d b'4 b b b8 b~b4 a a g e2 e c4 r8
     c c c4 g'8~g4 r8 g g g4 fis8~fis1
+    e4. d8 e4. d8 e4 g2 r4 
+    a4. b8 a4. b8 a2. r4
+}
 
+verseOne = \lyricmode { 
+  yin zhe shi -- jie you -- an,
+  bei zui -- en kun -- bang,
+  zai yin -- leng chang -- ye zhong,
+  zhong shou -- zao qie -- wang.
+  
+  zhen -- guang po -- xiao,
+  ma -- peng zhong de xin -- sheng -- wang.
+  ta yao zhang -- quan, zhi dao yong -- yuan, zhi dao yong -- yuan.
+  ta yao zhang -- quan, zhi dao yong -- yuan, zhi dao yong -- yuan.
 
-    
-  }
-  verseOne = \lyricmode { 
-    因 这 世 界 幽 暗
-  }
+  you yi zi wei wo -- men sheng,
+  wan wang zhi wang wan zhu zhi zhu.
+  ta yao zhang -- quan, zhi dao yong -- yuan, zhi dao yong -- yuan.
+  
+  ruo zuo dong -- fang bo -- shi, xun -- zhao xin -- sheng -- wang.
+}
 
-  \score {
+\score {
   <<
     \new Voice = "one" {
       \time 2/4
@@ -40,5 +54,7 @@
     }
   >>
 }
-  \layout {}
-  \midi {}
+
+\layout {}
+
+\midi {}
