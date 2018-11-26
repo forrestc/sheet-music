@@ -5,7 +5,8 @@
 
 musicOne = \relative c {
     \tempo "With awe" 4= 120
-    
+    \time 4/4 
+
     \key g \major
     \clef bass
     e4. d8 e4. d8 e4 g2 r4 
@@ -20,9 +21,9 @@ musicOne = \relative c {
     g8 g g4 fis8~fis2. r4
     b4 b b a8 a~a4 g g r8
     d b'4 b b b8 b~b4 a a g e2 e c4 r8
-    c c c4 g'8~g4 r8 g g g4 fis8~fis1
-    e4. d8 e4. d8 e4 g2 r4 
-    a4. b8 a4. b8 a2. r4
+    c c c4 g'8~g4 r8 g g g4 fis8~fis2
+    r4 d4 g2 b, e r4 b a2 b4 c d1 d 
+    d4 d d g1~ g
 }
 
 verseOne = \lyricmode { 
@@ -39,8 +40,9 @@ verseOne = \lyricmode {
   you yi zi wei wo -- men sheng,
   wan wang zhi wang wan zhu zhi zhu.
   ta yao zhang -- quan, zhi dao yong -- yuan, zhi dao yong -- yuan.
-  
-  ruo zuo dong -- fang bo -- shi, xun -- zhao xin -- sheng -- wang.
+
+  ta yao zhang -- quan, zhi dao yong -- yuan, yong -- yuan.
+  zhi dao yong -- yuan.
 }
 
 \score {
@@ -53,8 +55,8 @@ verseOne = \lyricmode {
       \verseOne
     }
   >>
+  \layout {}
+
+  \midi {}
 }
 
-\layout {}
-
-\midi {}
