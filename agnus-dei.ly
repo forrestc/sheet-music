@@ -21,8 +21,11 @@ musicOne = \relative c {
     g2 g4 a2 a4 a2 bes8.( c16) bes2 bes4 bes2 bes4 
     d4( c8 d \tuplet 3/2 {bes8 c a)} a2.
     c4( bes8 c \tuplet 3/2 {a8 bes g)} g2.
-    bes4( a8 bes \tuplet 3/2 {c8 bes) a} a4( g c,) d2
+    bes4( a8 bes \tuplet 3/2 {c8 bes) a} a4( g c,) d2 r8
 
+    g8 a( bes) a g fis g b2. c2.( bes2. aes2.)
+    d,2 d4 d d d g2.~ g2.
+    ees2. d2. c2. cis2. d2. g,2.~ g2.
 }
 
 verseOne = \lyricmode { 
@@ -33,6 +36,10 @@ verseOne = \lyricmode {
 
   Ag -- nus de -- i, Ag -- nus de -- i, 
   Ag -- nus, Ag -- nus, Ag -- nus, Ag -- nus de -- i,
+
+  qui tol -- ils pec -- ca -- ta mun -- di;
+  do -- na no -- bis pa -- cem.
+  Do -- na no -- bis pa -- cem.
 }
 
 \score {
