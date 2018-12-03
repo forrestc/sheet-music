@@ -25,7 +25,7 @@ musicOne = \relative c {
 
     g8 a( bes) a g fis g b2. c2.( bes2. aes2.)
     d,2 d4 d d d g2.~ g2.
-    ees2. d2. c2. cis2. d2. g,2.~ g2.
+    ees2. d2. c2. cis2. d2. g,2.~ g2.~ g2.
 }
 
 verseOne = \lyricmode { 
