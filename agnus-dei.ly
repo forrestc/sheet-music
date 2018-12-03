@@ -1,48 +1,38 @@
 \header {
-  title = "He Shall Regin Forevermore"
-  composer = "Tom Fetteke"
+  title = "Agnus Dei"
+  composer = "Tomaso Albinoni"
 }
 
 musicOne = \relative c {
-    \tempo "With awe" 4= 120
-    \time 4/4 
+    \tempo "Expressivo" 4= 60
+    \time 3/4 
 
-    \key g \major
+    \key f \major
     \clef bass
-    e4. d8 e4. d8 e4 g2 r4 
-    a4. b8 a4. b8 a2. r4
-    e4. d8 e4. d8 e4 g2 r4 
-    a4. b8 a4. b8 a4 r4
-    c b a4. e8~e2 r
-    g8 a4 b8~b4 g c b a2 r4
-    g4 e2 e c4 r8 c8 c c4 g'8~g4 r8
-    g8 g g4 fis8~ fis2 r4
-    g e2 e c4 r8 c c c4 g'8~g4 r8
-    g8 g g4 fis8~fis2. r4
-    b4 b b a8 a~a4 g g r8
-    d b'4 b b b8 b~b4 a a g e2 e c4 r8
-    c c c4 g'8~g4 r8 g g g4 fis8~fis2
-    r4 d4 g2 b, e r4 b a2 b4 c d1 d 
-    d4 d d g1~ g
+    
+    d2 d4 e2 e4 e2 f8.( g16) f2 f4
+    f2 f4 a( g8 a \tuplet 3/2 {f8 g e)} e2.
+    g4( f8 g \tuplet 3/2 {e8 f d)} d2.
+    f4( e8 f \tuplet 3/2 {g8 f) e} e4( d g) a2.
+
+    fis2.( g2. f2.) ees2. a2 a4 a a a d,2.
+
+    \key g \minor
+    g2 g4 a2 a4 a2 bes8.( c16) bes2 bes4 bes2 bes4 
+    d4( c8 d \tuplet 3/2 {bes8 c a)} a2.
+    c4( bes8 c \tuplet 3/2 {a8 bes g)} g2.
+    bes4( a8 bes \tuplet 3/2 {c8 bes) a} a4( g c,) d2
+
 }
 
 verseOne = \lyricmode { 
-  yin zhe shi -- jie you -- an,
-  bei zui -- en kun -- bang,
-  zai yin -- leng chang -- ye zhong,
-  zhong shou -- zao qie -- wang.
+  Ag -- nus de -- i, Ag -- nus de -- i,
+  Ag -- nus Ag -- nus, Ag -- nus, Ag -- nus De -- i,
   
-  zhen -- guang po -- xiao,
-  ma -- peng zhong de xin -- sheng -- wang.
-  ta yao zhang -- quan, zhi dao yong -- yuan, zhi dao yong -- yuan.
-  ta yao zhang -- quan, zhi dao yong -- yuan, zhi dao yong -- yuan.
+  mun di; mi -- se -- re -- re no -- bis.
 
-  you yi zi wei wo -- men sheng,
-  wan wang zhi wang wan zhu zhi zhu.
-  ta yao zhang -- quan, zhi dao yong -- yuan, zhi dao yong -- yuan.
-
-  ta yao zhang -- quan, zhi dao yong -- yuan, yong -- yuan.
-  zhi dao yong -- yuan.
+  Ag -- nus de -- i, Ag -- nus de -- i, 
+  Ag -- nus, Ag -- nus, Ag -- nus, Ag -- nus de -- i,
 }
 
 \score {
