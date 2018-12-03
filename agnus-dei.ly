@@ -15,7 +15,7 @@ musicOne = \relative c {
     g4( f8 g \tuplet 3/2 {e8 f d)} d2.
     f4( e8 f \tuplet 3/2 {g8 f) e} e4( d g) a2.
 
-    fis2.( g2. f2.) ees2. a2 a4 a a a d,2.
+    fis2.( g2. f2.) d2. a'2 a4 a a a d,2.
 
     \key g \minor
     g2 g4 a2 a4 a2 bes8.( c16) bes2 bes4 bes2 bes4 
