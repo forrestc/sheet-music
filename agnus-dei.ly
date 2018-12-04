@@ -37,7 +37,7 @@ verseOne = \lyricmode {
   Ag -- nus de -- i, Ag -- nus de -- i, 
   Ag -- nus, Ag -- nus, Ag -- nus, Ag -- nus de -- i,
 
-  qui tol -- ils pec -- ca -- ta mun -- di;
+  qui toi -- lis pec -- ca -- ta mun -- di;
   do -- na no -- bis pa -- cem.
   Do -- na no -- bis pa -- cem.
 }
