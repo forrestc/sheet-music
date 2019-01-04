@@ -2,9 +2,7 @@
   title = "Here I am to Worship (bass last part)"
   composer = "Arranged by: Lloyd Larson"
 }
-
-\score {
-  \relative c' {
+music =  \relative c' {
     \tempo "Expressivo" 4= 80
     \clef bass
 
@@ -21,6 +19,19 @@
     aes8 bes bes bes bes ees1
   }
 
+verse = {}
+
+\score {
+  <<
+    \new Voice = "one" {
+      \time 2/4
+      \music
+    }
+    \new Lyrics \lyricsto "one" {
+      \verse
+    }
+  >>
   \layout {}
+
   \midi {}
 }
