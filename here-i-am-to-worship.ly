@@ -19,7 +19,16 @@ music =  \relative c' {
     aes8 bes bes bes bes ees1
   }
 
-verse = {}
+verse = \lyricmode {
+   聖 哉， 聖 哉， 聖 哉！
+	 全 能 大 主 宰！
+	 榮 耀， 與 讚 美，
+	 歸 三 一 真 神！
+	 我 要 來 敬 拜 你；
+	 屈 膝 向 你 俯 伏；
+	 揚 聲 宣 告 主 你 是 我 神。
+	 宣 告 你 是 我 神！
+}
 
 \score {
   <<
