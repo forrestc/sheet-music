@@ -33,7 +33,6 @@ verse = \lyricmode {
 \score {
   <<
     \new Voice = "one" {
-      \time 2/4
       \music
     }
     \new Lyrics \lyricsto "one" {
