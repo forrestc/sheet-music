@@ -18,7 +18,7 @@ musicOne = \relative c {
     d( c8 bes) a2 bes4( a8 g) a g f e d2 g4
     g g4. g8 g4 c8( bes) a4. a8 a,2
 
-    r1 r 
+    r1
     
     \key d \major
 
@@ -30,7 +30,7 @@ musicOne = \relative c {
     b2 fis4 fis g2 b,
     e4 e a,4. a8 d1
 
-    r1 r
+    r1
 
     d'8( cis) b( a) g4 e a2 a,
     g8( a) b( cis) d4 g,4 d'4.( a8) b2
@@ -41,6 +41,8 @@ musicOne = \relative c {
     g8( fis) e( d) b( a) g4 b2 cis
     b4.( cis8) d4 d g2 a g8( fis) e4 a a, d2
     r4 d8 d8 d2 d2~ d2. r4
+
+    r1    
 
     \key ees \major
     ees4 ees g g bes( bes,) ees2
