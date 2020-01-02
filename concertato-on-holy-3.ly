@@ -1,45 +1,85 @@
 \header {
-  title = "Agnus Dei"
-  composer = "Tomaso Albinoni"
+  title = "Concertato on Holy, Holy, Holy"
+  composer = "John B. Dykes"
 }
 
 musicOne = \relative c {
-    \tempo "Expressivo" 4= 60
-    \time 3/4 
+    \tempo "Joyfully, energetically" 4= 100
+    \time 4/4 
 
-    \key f \major
+    \key d \major
     \clef bass
     
-    d2 d4 e2 e4 e2 f8.( g16) f2 f4
-    f2 f4 a( g8 a \tuplet 3/2 {f8 g e)} e2.
-    g4( f8 g \tuplet 3/2 {e8 f d)} d2.
-    f4( e8 f \tuplet 3/2 {g8 f) e} e4( d g) a2.
+    d2 d2 fis2 fis a1 a2. r4
 
-    fis2.( g2. f2.) d2. a'2 a4 a a a d,2.
+    \key f \major
+    
+    f2 f a a c c4  g c2. r4
+    d( c8 bes) a2 bes4( a8 g) a g f e d2 g4
+    g g4. g8 g4 c8( bes) a4. a8 a,2
 
-    \key g \minor
-    g2 g4 a2 a4 a2 bes8.( c16) bes2 bes4 bes2 bes4 
-    d4( c8 d \tuplet 3/2 {bes8 c a)} a2.
-    c4( bes8 c \tuplet 3/2 {a8 bes g)} g2.
-    bes4( a8 bes \tuplet 3/2 {c8 bes) a} a4( g c,) d2 r8
+    r1 r 
+    
+    \key d \major
 
-    g8 a( bes) a g fis g b2. c2.( bes2. aes2.)
-    d,2 d4 d d d g2.~ g2.
-    ees2. d2. c2. cis2. d2. g,2.~ g2.~ g2.
+    r8 d a' fis16 g a8. a16 a4
+    r8 cis a e16 fis16 g8 g fis e
+    r8 d16 e fis8 g r8 g16 a b8 d
+    r8 d, a' fis16 g a8. b16 cis4
+
+    b2 fis4 fis g2 b,
+    e4 e a,4. a8 d1
+
+    r1 r
+
+    d'8( cis) b( a) g4 e a2 a,
+    g8( a) b( cis) d4 g,4 d'4.( a8) b2
+    b4. e8 fis( e) d( cis) b4 b4 cis 
+    d a'8( g) fis( e) e4. a,8 a4 a8 a a4 a
+
+    d8( e) fis( d) b( cis) d( b) a2 d2
+    g8( fis) e( d) b( a) g4 b2 cis
+    b4.( cis8) d4 d g2 a g8( fis) e4 a a, d2
+    r8 d8 d8 d2 d2~ d2.
+
+    \key e \flat
+    ees4 ees g g b b, ees2
+
 }
 
 verseOne = \lyricmode { 
-  Ag -- nus de -- i, Ag -- nus de -- i,
-  Ag -- nus Ag -- nus, Ag -- nus, Ag -- nus De -- i,
+  Ho -- ly Ho -- ly ho -- ly!
+  Ho -- ly Ho -- ly ho -- ly, Lord God!
+  Ho -- ly Ho -- ly Lord God Al -- might -- y
+  for -- ev -- er -- more, for -- ev -- er -- more!
   
-  mun di; mi -- se -- re -- re no -- bis.
+  Ho -- ly is the Lord on high!
+  Ho -- ly is the Lord Al -- might -- y!
+  Al -- le -- lu -- ia! Al -- le -- lu -- ia!
+  Ho -- ly, they a -- dore the Lord!
+  
+  which wert, and art, and
+  ev -- er -- more shall be
 
-  Ag -- nus de -- i, Ag -- nus de -- i, 
-  Ag -- nus, Ag -- nus, Ag -- nus, Ag -- nus de -- i,
+  Ho -- ly Ho -- ly ho -- ly!
+  Though the dark -- ness hide Thee,
+  though the eye of sin -- ful man
+  Thy glo -- ry may not see,
+  all Thy glo -- ry!
 
-  qui toi -- lis pec -- ca -- ta mun -- di;
-  do -- na no -- bis pa -- cem.
-  Do -- na no -- bis pa -- cem.
+  On -- ly Thou art ho -- ly 
+  There is none be -- side Thee,
+  Per -- fect in pow'r, in love and pur -- i -- ty.
+  Thou art ho -- ly
+
+  Ho -- ly Ho -- ly ho -- ly!
+  Lord God Al -- might -- y! 
+  All Thy works shall praise Thy name in earth and sky and sea.
+  Ho -- ly Ho -- ly ho -- ly!
+  Mer -- ci -- ful and might -- y
+  God in three per -- sons
+  bless -- ed Trin -- i -- ty.
+
 }
 
 \score {
