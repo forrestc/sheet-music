@@ -39,11 +39,11 @@ musicOne = \relative c {
 
     d'8( cis) b( a) g4 e a2 a,
     g8( a) b( cis) d4 g,4 d'4.( a8) b2
-    b4. e8 fis( e) d( cis) b4 b4 cis 
+    cis4. e8 fis( e) d( cis) b4 b4 cis 
     d a'8( g) fis( e) e4. a,8 a4 a8 a a4 a
 
     d8( e) fis( d) b( cis) d( b) a2 d2
-    g8( fis) e( d) b( a) g4 b2 cis
+    g8( fis) e( d) b( a) g4 d'2 cis
     b4.( cis8) d4 d g2 a g8( fis) e4 a a, d2
     r4 d8 d8 d2 d2~ d2. r4
 
