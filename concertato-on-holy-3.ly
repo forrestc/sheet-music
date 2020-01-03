@@ -4,7 +4,7 @@
 }
 
 musicOne = \relative c {
-    \tempo "Joyfully, energetically" 4= 80
+    \tempo "Joyfully, energetically" 4= 100
     \time 4/4 
 
     \key d \major
