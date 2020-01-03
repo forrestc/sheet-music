@@ -4,12 +4,13 @@
 }
 
 musicOne = \relative c {
-    \tempo "Joyfully, energetically" 4= 100
+    \tempo "Joyfully, energetically" 4= 80
     \time 4/4 
 
     \key d \major
     \clef bass
     
+    \set Score.currentBarNumber = 3
     d2 d2 fis2 fis a1 a2. r4
 
     \key f \major
@@ -19,6 +20,8 @@ musicOne = \relative c {
     g g4. g8 g4 c8( bes) a4. a8 a,2
 
     r1
+    \break 
+    \set Score.currentBarNumber = 41
     
     \key d \major
 
@@ -31,6 +34,8 @@ musicOne = \relative c {
     e4 e a,4. a8 d1
 
     r1
+    \break
+    \set Score.currentBarNumber = 51
 
     d'8( cis) b( a) g4 e a2 a,
     g8( a) b( cis) d4 g,4 d'4.( a8) b2
@@ -42,12 +47,15 @@ musicOne = \relative c {
     b4.( cis8) d4 d g2 a g8( fis) e4 a a, d2
     r4 d8 d8 d2 d2~ d2. r4
 
-    r1    
+    \break 
 
     \key ees \major
     ees4 ees g g bes( bes,) ees2
     aes4.( g8) f4 bes, ees2 ees
     bes'8( aes g) f ees4 d c c bes8( c) d( ees) f4 g f4. bes,8 bes2. r4
+
+    \break
+    
     ees4 ees g g bes( bes,) c2
     aes4. aes8 aes4 aes ees'2  ees4( d)
     c2 g'4 g aes8( g f ees) ees( des c bes)
