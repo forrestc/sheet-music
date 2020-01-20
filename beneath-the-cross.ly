@@ -1,101 +1,63 @@
 \header {
-  title = "Concertato on Holy, Holy, Holy"
-  composer = "John B. Dykes"
+  title = "Beneath the Cross"
+  composer = "John Bowring"
 }
 
 musicOne = \relative c {
-    \tempo "Joyfully, energetically" 4= 100
-    \time 4/4 
-
-    \key d \major
-    \clef bass
-    
-    \set Score.currentBarNumber = 3
-    d2 d2 fis2 fis a1 a2. r4
-
-    \key f \major
-    
-    f2 f a a c c4  g c2. r4
-    d( c8 bes) a2 bes4( a8 g) a g f e d2 g4
-    g g4. g8 g4 c8( bes) a4. a8 a,2
-
-    r1
-    \break 
-    \set Score.currentBarNumber = 41
-    
-    \key d \major
-
-    r8 d a' fis16 g a8. a16 a4
-    r8 cis a e16 fis16 g8 g fis e
-    r8 d16 e fis8 g r8 g16 a b8 d
-    r8 d, a' fis16 g a8. b16 cis4
-
-    b2 fis4 fis g2 b,
-    e4 e a,4. a8 d1
-
-    r1
-    \break
-    \set Score.currentBarNumber = 51
-
-    d'8( cis) b( a) g4 e a2 a,
-    g8( a) b( cis) d4 g,4 d'4.( a8) b2
-    cis4. e8 fis( e) d( cis) b4 b4 cis 
-    d a'8( g) fis( e) e4. a,8 a4 a8 a a4 a
-
-    d8( e) fis( d) b( cis) d( b) a2 d2
-    g8( fis) e( d) b( a) g4 d'2 cis
-    b4.( cis8) d4 d g2 a g8( fis) e4 a a, d2
-    r4 d8 d8 d2 d2~ d2. r4
-
-    \break 
+    \tempo "With reverence" 4= 69
+    \time 3/4 
 
     \key ees \major
-    ees4 ees g g bes( bes,) ees2
-    aes4.( g8) f4 bes, ees2 ees
-    bes'8( aes g) f ees4 d c c bes8( c) d( ees) f4 g f4. bes,8 bes2. r4
-
-    \break
+    \clef bass
     
-    ees4 ees g g bes( bes,) c2
-    aes4. aes8 aes4 aes ees'2  ees4( d)
-    c2 g'4 g aes8( g f ees) ees( des c bes)
-    aes8( bes) c4 bes8( c d) ees ees1
+    \set Score.currentBarNumber = 5
+    r r ees bes'4. bes8 aes g g( aes) ees4
+    f f8 g d4 ees f r
 
+    g aes8 bes c( bes) aes4 bes8 bes g4
+    ees8( f) ges aes bes4 aes8( ges) f2.~f4 r r
+
+    r8 c d ees f g aes bes ces4 r
+    r8 bes bes g bes bes a2
+    a4 aes4. aes8 aes aes g g g4
+    g f4. f8 f f bes2.~bes4 r
+
+    d, ees8 ees ees4 ees8 ees d d c4 
+    bes aes8 aes f4 bes ees2.
+    
+    \break
+    \set Score.currentBarNumber = 40
+
+    r4 r d c4. c8 c c ces ces ces4
+    r8 ces bes4. bes8 bes bes a2
+    r8 a' aes4. aes8 aes aes g g g4~g8
+    g8 f4. f8 f f bes2.~bes2 r4
+
+    aes2. g2 r4 ges2. f2 r4 fes2. ees2. r4 r4
+    a4 gis8 fis8 fis4 e fis2.
 }
 
 verseOne = \lyricmode { 
-  Ho -- ly Ho -- ly ho -- ly!
-  Ho -- ly Ho -- ly ho -- ly, Lord God!
-  Ho -- ly Ho -- ly Lord God Al -- might -- y
-  for -- ev -- er -- more, for -- ev -- er -- more!
-  
-  Ho -- ly is the Lord on high!
-  Ho -- ly is the Lord Al -- might -- y!
-  Al -- le -- lu -- ia! Al -- le -- lu -- ia!
-  Ho -- ly, they a -- dore the Lord!
-  
-  which wert, and art, and
-  ev -- er -- more shall be
+  在 主 宝 架 清 影 中,
+  欢 然 站 立 坚 定.
+  好 像 盛 暑 远 行 辛 苦,
+  投 进 磐 石 阴 影.
 
-  Ho -- ly Ho -- ly ho -- ly!
-  Though the dark -- ness hide Thee,
-  though the eye of sin -- ful man
-  Thy glo -- ry may not see,
-  all Thy glo -- ry!
+  又 像 旷 野 欣 逢 居 处,
+  长 途 喜 见 凉 亭,
+  到 此 得 息 肩 头 重 负,
+  养 力 奋 然 前 行.
 
-  On -- ly Thou art ho -- ly 
-  There is none be -- side Thee,
-  Per -- fect in pow'r, in love and pur -- i -- ty.
-  Thou art ho -- ly
+  当 盼 望 蒙 蔽, 恐 惧 临 近,
+  十 架 照 亮 我 心. 
 
-  Ho -- ly Ho -- ly ho -- ly!
-  Lord God Al -- might -- y! 
-  All Thy works shall praise Thy name in earth and sky and sea.
-  Ho -- ly Ho -- ly ho -- ly!
-  Mer -- ci -- ful and might -- y
-  God in three per -- sons
-  bless -- ed Trin -- i -- ty.
+  热 泪 满 眶 寸 心 将 裂,
+  两 事 反 复 思 量.
+  思 量 我 本 不 配 蒙 恩,
+  思 量 主 爱 非 常.
 
+  耶 稣, 耶 稣, 耶 稣,
+  我 高 举 你 十 架.
 }
 
 \score {
