@@ -14,7 +14,7 @@ musicOne = \relative c {
     r8 a' a b b cis cis e, fis1
     r8 b b cis cis d d a gis2
     r8 b8 cis d cis4. cis8 cis,4. cis8 d2
-    r4 a'8 fis e e4. e8 e4 e8 a,1
+    r4 a'8 fis e e4. e8 e4 e8 a,1 r1
 
     \break
     \set Score.currentBarNumber = 25
@@ -39,6 +39,7 @@ musicOne = \relative c {
     c4 c8c d4 d b2. b4 c1 c2 r
     r4 e e2 e r2  r4 c c c d2 d
 
+    \tempo "Broadly" 4= 68
     \key g \minor
     r8 bes' bes c c d d f, g1
     r8 c c d d ees ees bes a2
